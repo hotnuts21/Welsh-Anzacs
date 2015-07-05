@@ -9,9 +9,9 @@ ini_set('display_errors', 1);
 
 function get_nz() {
 $servername = "localhost";
-$username = "ww1hack";
-$password = "nE74B9yxVnSXBK3X";
-$dbname = "ww1hack";
+$username = "un";
+$password = "pw";
+$dbname = "db";
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
