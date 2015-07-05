@@ -11,7 +11,7 @@ function get_nz() {
 $servername = "localhost";
 $username = "un";
 $password = "pw";
-$dbname = "db";
+$dbname = "dbs";
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);

@@ -18,7 +18,7 @@ function get_aaa() {
 
    $api = new RestClient($options);
 
-    $result = $api->post("https://api.naa.gov.au/naa/api/v1/person/search-series-b2455?app_id={appid}&app_key={key}",
+    $result = $api->post("https://api.naa.gov.au/naa/api/v1/person/search-series-b2455?app_id={appi}&app_key={key}",
        "{\"page\": 1,\"rows\": 50,\"query_fields\": {\"place_of_birth\": \"wales\"}}",
            array('Content-Type' => 'application/json'));
       $params = json_encode([
